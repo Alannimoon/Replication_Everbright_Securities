@@ -1,9 +1,10 @@
-README - v1
+# README - v1
+
 目前完成了研报中第二部分的所有图表的复现绘制
 
-代码结构
+### 代码结构
 
-
+```
 rsrs_analysis/
 ├── main.py                      # 主程序入口和分析流程
 ├── config.py                    # 配置参数
@@ -19,6 +20,8 @@ rsrs_analysis/
     ├── strategy_performance.py  # 策略对比图表
     ├── cost_analysis.py         # 交易成本影响分析
     └── parameter_sensitivity.py # 参数变化图表
-运行 main.py 即可得到全部结果，生成文件夹 log 存储日志和 picture 存储图片。
+```
+
+运行 `main.py` 即可得到全部结果，生成文件夹 `log` 存储日志和 `picture` 存储图片。
 
 TODO：第三部分的复现：组合策略；数据迁移
